@@ -1,3 +1,7 @@
+/* A program to allow the user to find the correct scale factor for their load cells
+ *  Author: Gordon Lay, October 2021
+ */
+
 #include "HX711.h"
 
 // HX711 circuit wiring

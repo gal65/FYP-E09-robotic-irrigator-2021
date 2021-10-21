@@ -1,10 +1,16 @@
-// TODO: Add functionality to send output signals to control MCU (commented out)
+/* A program to read measurements from two load cells, from two different amplifiers, 
+ *  and use these to give an output to the movement control system. 
+ *  Assumes a Sparkfun load cell amplifier (HX711) is used.
+ *  Author: Gordon Lay, October 2021
+ */
+
+// TODO: Add functionality to send output signals to control MCU (commented out lines)
 
 #include "HX711.h"
 
-#define THRESHOLD 75      // Force difference threshold, in Newtons
-#define TERMS 10          // Number of terms used in taking average measurement
-#define SLEEP_TIME 1000   // Time to power down ADC (in milliseconds)
+#define THRESHOLD 75        // Force difference threshold, in Newtons
+#define TERMS 10            // Number of terms used in taking average measurement
+#define SLEEP_TIME 120000   // Time to power down ADC (in milliseconds)
 
 class load_cell {  
   public:

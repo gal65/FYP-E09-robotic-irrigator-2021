@@ -1,3 +1,7 @@
+/* A program to read from one load cell and display the output in serial every second.
+ *  Author: Gordon Lay, October 2021
+ */
+
 #include "HX711.h"
 
 // HX711 circuit wiring
