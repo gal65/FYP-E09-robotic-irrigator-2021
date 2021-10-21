@@ -1,0 +1,17 @@
+V_drift = +/- 6 nV/degC @ gain=128
+FSV = 10,000 nV
+
+Therefore F_drift = +/- 0.06 %FS/degC @ gain=128
+@ FS=15kg=147.15N: 
+
+F_drift = +/- 0.08829 N/degC
+
+Half average temperature range for Christchurch in summer: 4.5 degC
+
+F_drift = +/- 0.397305 N, on average
+
+OR 
+
+Full average temperature range for Christchurch in summer: 9 degC
+
+F_drift = +/- 0.79461 N
